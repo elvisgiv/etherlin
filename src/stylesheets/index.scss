@@ -1,0 +1,33 @@
+// index.scss <= main css file (all commons + customs)
+
+// all commons //
+@import "commons/commons.scss";
+
+/*:global {
+  @import 'commons/commons.scss';
+}*/
+
+// custom styles //
+@import "markets";
+@import "bootstap_overwrites";
+@import "react_table_overwrites.scss";
+@import "commons/messenger";
+
+// todo: tmp
+div{
+ // color: white;
+}
+
+
+.gx-list-element{
+  border-radius: 6px;
+}
+
+.gx-list-element:hover{
+  background-color: #141b27;
+}
+
+
+.gx-list-selected{
+  background-color: rgba(28, 124, 209, 0.44) !important;
+}
